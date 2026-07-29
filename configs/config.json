@@ -1,0 +1,39 @@
+{
+  "epanet": {
+    "inp_file": "network.inp",
+    "target_node_id": "13",
+    "upstream_node_id": "12",
+    "pipe_to_target_id": "12",
+    "duration_hours": 96
+  },
+  "openfoam": {
+    "base_case_dir": "openfoam_case",
+    "run_folder_name": "outputs/of_runs",
+    "solver_command": "Chlorine_OrganicReaction",
+    "solver_command_fallback": "Chlorine_OrganicReaction",
+    "n_procs": 8,
+    "local_end_time": 1000,
+    "delta_t": 1,
+    "write_interval": 500,
+    "save_postprocessing_only": true,
+    "postprocessing_database_dir": "outputs/database_postProcessing",
+    "cf_inlet": 0.000336,
+    "cs_inlet": 0.001344,
+    "reset_species_ic": true
+  },
+  "ml": {
+    "model_weights": "data/unet2d_slices.pt",
+    "pressure_model_weights": "data/pressure_unet.pt",
+    "processed_data_h5": "data/processed_data.h5",
+    "processed_data_pressure_h5": "data/processed_data_with_pressure.h5",
+    "grid_shape": [80, 50, 50],
+    "time_step_label": "1800",
+    "use_lookup": false
+  },
+  "mapping": {
+    "index_map_file": "data/cell_to_grid_map.npy"
+  },
+  "units": {
+    "epanet_demand_to_m3s": 6.309e-5
+  }
+}

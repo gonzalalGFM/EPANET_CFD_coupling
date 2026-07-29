@@ -1,0 +1,13 @@
+data/*.h5
+data/*.pt
+data/*.npy
+outputs/
+logs/
+**/__pycache__/
+.venv/
+openfoam_case/
+network.inp
+precomputed_masks.npz
+inlet_area.txt
+inlet_cell_indices.npy
+*.pyc
