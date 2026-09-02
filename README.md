@@ -36,7 +36,3 @@ python3 coupling/run_workflow.py
 # or longer campaign:
 python3 coupling/run_paper_campaign.py
 ```
-
-Edit paths / MPI ranks / organics in `configs/`. Keep absolute machine paths out of git.
-
-Weights and HDF5 go under `data/` (gitignored). Put your mesh + network at the repo root.
