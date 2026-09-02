@@ -14,12 +14,10 @@ pip install -r requirements.txt
 
 You need OpenFOAM (`Chlorine_OrganicReaction` on PATH), a case folder (`openfoam_case/`), an EPANET inp (`network.inp`), and a GPU for training/inference.
 
-**Zenodo (fill in after deposit):**
+**Zenodo([repository](https://doi.org/10.5281/zenodo.21671937)):**
 
-- Cube CFD cases: `https://doi.org/10.5281/zenodo.XXXXXXX`  
-  unpack somewhere and point `--base` at that folder  
-- Chlorine / organic-reaction solver: `https://doi.org/10.5281/zenodo.YYYYYYY`  
-  build/install, then put `Chlorine_OrganicReaction` on `PATH` (or set `solver_command` in `configs/`)
+- Cube CFD case 
+- Chlorine / organic-reaction solver
 
 Typical order:
 
