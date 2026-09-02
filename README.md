@@ -1,8 +1,8 @@
 # EPANET + ML + OpenFOAM coupling
 
-Research code for the hybrid tank–network co-simulation.
+Repository for paper entitled **Coupling 1D Network Hydraulics with ML-Accelerated 3D CFD for High-Fidelity Water Quality Modeling in Water Distribution Networks**.
 
-Roughly three parts:
+Three parts:
 
 1. **preprocess/** — take OpenFOAM cube runs, put them on a regular grid, write HDF5  
 2. **training/** — train the slice-wise U-Nets (velocity/nut, then pressure)  
