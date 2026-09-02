@@ -1,6 +1,6 @@
 # EPANET + ML + OpenFOAM coupling
 
-Repository for paper entitled **Coupling 1D Network Hydraulics with ML-Accelerated 3D CFD for High-Fidelity Water Quality Modeling in Water Distribution Networks**.
+Repository for paper entitled "**Coupling 1D Network Hydraulics with ML-Accelerated 3D CFD for High-Fidelity Water Quality Modeling in Water Distribution Networks**".
 
 Three parts:
 
